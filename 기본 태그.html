@@ -15,6 +15,8 @@ p {color:black;}
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Study</title>
+    <!--파비콘-->
+    <link rel="icon" type="img/x-icons" href="img/Html.jpg">
 </head>
 <!--배경 색-->
 <body style="background-color:white";>
@@ -116,6 +118,12 @@ p {color:black;}
         <area shape="rect" coords="34,44,270,350" href="" alt="">
     </map>
     <!--배경 이미지-->
-    
+    <p style="background-image: url('img/download.jpg');">안녕하세요 지금은 코딩 공부를 하고 있는 중입니다.<p><br>
+    <!--picture 요소-->
+    <picture>
+        <source media="(min-width: 650px)" srcset="img/스테이크.jpg">
+        <source media="(min-width: 465px)" srcset="img/Html.jpg">
+        <img src="img/스테이크.jpg">
+    </picture>
 </body>
 </html>
